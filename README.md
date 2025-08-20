@@ -20,7 +20,7 @@
 
 ## How It Works
 
-1. Accept a user’s question.  
+1. Accept the user’s question.  
 2. Query the Bing/Serper API for the top 6 results.  
 3. Scrape and store text from those results as context.  
 4. Send the user’s question + context to **Llama 3.1 70B** and stream the answer.  
@@ -33,8 +33,8 @@
 3. Create an account at [Serper](https://serper.dev/) or [Bing Search API](https://www.microsoft.com/en-us/bing/apis/bing-web-search-api).  
 4. (Optional) Set up [Helicone](https://www.helicone.ai/) for observability.  
 5. Create a `.env` file (based on `.example.env`) and add your API keys.  
-6. Run:  
+6. Install dependencies and run the dev server:  
+
    ```bash
    npm install
-   npm run dev\
-   npm install
+   npm run dev
