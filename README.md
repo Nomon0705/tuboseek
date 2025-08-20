@@ -33,7 +33,7 @@
 3. Create an account at [Serper](https://serper.dev/) or [Bing Search API](https://www.microsoft.com/en-us/bing/apis/bing-web-search-api).  
 4. (Optional) Set up [Helicone](https://www.helicone.ai/) for observability.  
 5. Create a `.env` file (based on `.example.env`) and add your API keys.  
-6. Install dependencies and run the dev server:  
+6. Install dependencies and run the development server:  
 
    ```bash
    npm install
